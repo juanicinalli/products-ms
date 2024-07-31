@@ -24,6 +24,6 @@ async function bootstrap() {
     }),
   );
   await app.listen();
-  logger.log(`Poroducts MS running on ${envs.port} `);
+  logger.log(`Products MS running on ${envs.port} `);
 }
 bootstrap();
